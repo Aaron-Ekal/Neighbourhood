@@ -22,19 +22,16 @@ body{
     font-family: 'lato', sans-serif;
     overflow-x:hidden !important;
 }
-.navbar{
-    /* background-color:#161c2d !important;  */
-    background-color:rgb(105, 12, 93)!important; 
-}
+
 .nav-link:hover{
     font-weight: bold !important;
 }
 .background{
-    background-image: url(/static/photos/background-image.jpg);
-    height: 580px;
+    background-image: url(../photos/sign.png);
+    height: 680px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    color: white;
+    color: rgb(247, 243, 243);
 }
 .sign{
     background-image: url(/static/photos/background-image.jpg);
@@ -57,7 +54,7 @@ body{
 .nei{
     font-family: 'Ginga', sans-serif;
     font-size: 150px;
-    color: rgb(153, 19, 165);;
+    color: rgb(6, 6, 6);
     padding-top: 0 !important;
     margin-top: 0% !important;
    
@@ -73,7 +70,7 @@ body{
 }
 footer{
     color: white !important;
-    background-color:rgb(189, 73, 169)!important; 
+    background-color:rgb(10, 10, 10)!important; 
 }
 /* form here */
 .right{
