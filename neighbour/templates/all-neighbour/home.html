@@ -5,18 +5,19 @@
 {% block content%}
 {{block.super}}
 <div class="container-fluid background text-center">
-    <h1 class="font-weight-bold text-center text-dark pt-5 ">The Community <span class="auto-type text-danger"></span></h1>
-    <h1 class="nei">Neighood</h1>
-    <h3 class="intro1 fs-5 font-weight-bold">Alone, we can do so little; together we can do so much <br>
-         Hellen Keller
-    </h3>
+    <h1 class="font-weight-bold text-center text-dark pt-5 ">The Community <span class="auto-type" style="color: orangered;" ></span></h1>
+    <h1 class="nei" >Neighood</h1>
+    <br><br>
     {% if request.user.profile.neighbourhood %}
     {%else%}
     <a href="{%url 'hoods'%}" class="btn mt-4 btn-warning pl-4 pr-4 font-weight-bold black">Free Community Sign Up</a>
     {%endif%}
- 
+    <br><br><br><br>
+    <h3 class="intro1 fs-5 font-weight-bold text-steel" >Alone, we can do so little; together we can do so much <br>
+        <span class="text-danger">Hellen Keller</span> 
+    </h3>
 </div>
-<div class="container mt-5 mb-3">
+<!-- <div class="container mt-5 mb-3">
     <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-4">
@@ -30,7 +31,7 @@
         </div>
         <div class="col-md-1"></div>
     </div>
-</div>
+</div> -->
 <div class="container pt-4">
     {% if user.is_authenticated %}
     {%else%}
