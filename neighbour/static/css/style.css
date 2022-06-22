@@ -31,7 +31,7 @@ body{
 }
 .background{
     background-image: url(../photos/sign.png);
-    height: 680px;
+    height: 660px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     color: rgb(247, 243, 243);
@@ -64,7 +64,7 @@ body{
 }
 .neig{
     font-family: 'BLKCHCRY', sans-serif;
-    color: rgb(242, 161, 245) !important;
+    color: rgb(77, 75, 77) !important;
     font-size: 25px !important;  
 }
 .join{

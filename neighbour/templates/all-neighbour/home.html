@@ -6,7 +6,7 @@
 {{block.super}}
 <div class="container-fluid background text-center">
     <h1 class="font-weight-bold text-center text-dark pt-5 ">The Community <span class="auto-type" style="color: orangered;" ></span></h1>
-    <h1 class="nei" >Neighood</h1>
+    <h1 class="nei" >Neighood Simplified</h1>
     <br><br>
     {% if request.user.profile.neighbourhood %}
     {%else%}
@@ -17,25 +17,10 @@
         <span class="text-danger">Hellen Keller</span> 
     </h3>
 </div>
-<!-- <div class="container mt-5 mb-3">
-    <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-4">
-            <p class="font-weight-bold hoodapp">Neighood provides a community where people interact. The platform provides a safe environment where hood people can share, get information, and ask questions.</p>
-        </div>
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
-            <p class="community">
-                With Community Comes Unity. <br> Neighood is a community established for communities by communities.
-            </p>
-        </div>
-        <div class="col-md-1"></div>
-    </div>
-</div> -->
 <div class="container pt-4">
     {% if user.is_authenticated %}
     {%else%}
-    <h2 class="font-weight-bold hoodapp text-center">Connect to your online neighborhood community</h2>
+    <h2 class="font-weight-bold hoodapp text-center">Connecting  to your neighbourhood community anytime, anywhere is now simplified</h2>
     <p class="text-center"><a href="{%url 'register'%}" class="btn mt-4 join pl-4 pr-4 font-weight-bold black">SIGN UP</a></p>
     {%endif%}
    
