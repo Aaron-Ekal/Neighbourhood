@@ -37,7 +37,7 @@ Postgresql
 Bootstrap
 DjangoRestFramework
 
-#Admin Login
+# Admin Login
 username = tellem
 password = mko9
 
