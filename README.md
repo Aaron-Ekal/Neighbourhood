@@ -37,5 +37,9 @@ Postgresql
 Bootstrap
 DjangoRestFramework
 
+#Admin Login
+username = tellem
+password = mko9
+
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
